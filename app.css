@@ -1,0 +1,41 @@
+#wrapper {
+  width: 266px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#output{
+  width:259px;
+  height:80px;
+  background-color: brown;
+  font:66px Helvetica;
+  padding-left:5px;
+  color:#fff;
+}
+
+#wrapper .numeral {
+  width: 66px;
+  font:60px Helvetica;
+  text-align: center;
+  color:#fff;
+  display:inline-block;
+  background: orange;
+}
+
+#wordbox {
+  width: 266px;
+  height: 100px;
+  font: 14px Helvetica;
+  color:#000;
+  background-color: #eee;
+}
+
+#wrapper .active-elm, #wrapper .numeral:active
+{
+  background-color: white;
+  color: orange;
+}
+
+#wrapper #button0 {
+  width:132px;
+}
